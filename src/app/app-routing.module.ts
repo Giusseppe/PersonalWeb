@@ -7,7 +7,7 @@ import { MeComponent } from './me/me.component';
 import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
-  {path: '', component: CvComponent },
+  {path: '', component: MeComponent },
   {path: 'me', component: MeComponent },
   {path: 'cv', component: CvComponent },
   {path: 'portafolio', component: PortafolioComponent },
