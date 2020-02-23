@@ -8,7 +8,6 @@ import { FooterComponent } from './footer/footer.component';
 import { OcioComponent } from './ocio/ocio.component';
 import { PortafolioComponent } from './portafolio/portafolio.component';
 import { CvComponent } from './cv/cv.component';
-import { UnderConstructionComponent } from './under-construction/under-construction.component';
 import { MeComponent } from './me/me.component';
 import { ContactoComponent } from './contacto/contacto.component';
 
@@ -20,7 +19,6 @@ import { ContactoComponent } from './contacto/contacto.component';
     OcioComponent,
     PortafolioComponent,
     CvComponent,
-    UnderConstructionComponent,
     MeComponent,
     ContactoComponent
   ],
