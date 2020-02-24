@@ -10,6 +10,7 @@ import { PortafolioComponent } from './portafolio/portafolio.component';
 import { CvComponent } from './cv/cv.component';
 import { MeComponent } from './me/me.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     PortafolioComponent,
     CvComponent,
     MeComponent,
-    ContactoComponent
+    ContactoComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
