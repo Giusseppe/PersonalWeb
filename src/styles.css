@@ -1,0 +1,7 @@
+html , body {
+  height: 100%;
+  min-height: 600px;
+  min-width: 360px;
+
+  background-color: #151d26;
+}
