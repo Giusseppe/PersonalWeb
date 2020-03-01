@@ -24,7 +24,7 @@ export class CvComponent implements OnInit,OnDestroy {
     year:'2010 - 2014',
     university: 'Duoc UC Viña del mar',
     title: 'Egresado de Ingeniería en Informática',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    desc: '',
     tipo: 'edu',
     img: 'http://www.duoc.cl/sites/default/files/logo-2019-.png'
 
@@ -33,7 +33,7 @@ export class CvComponent implements OnInit,OnDestroy {
     year:'2018 - 2018',
     university: 'Duoc UC Viña del mar',
     title: 'Titulado de Ingeniería en Informática',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    desc: '',
     tipo: 'edu',
     img: 'http://www.duoc.cl/sites/default/files/logo-2019-.png'
   };
