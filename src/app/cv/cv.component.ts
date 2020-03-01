@@ -59,7 +59,7 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Trainee',
     desc: 'During 4 months, i learned HTML5, CSS, GIT, Angular y EOC (Ericsson Order Care) a technology used as Back-End to manage the operations of many external systems, also developed a simple web site simulating a shop with a shopping cart system using Angular. Then, i traveled to Fundao, Portugal for 1 month to learn how operates the development team in Portugal. Currently, im working at the bot team, solving issues that happens at production in the system OneClick.',
     tipo: 'exp',
-    img: 'https://static.wixstatic.com/media/b374e6_ec2cf5f97cfc4d4792924597982b2a7f~mv2.png/v1/fill/w_277,h_59,al_c,q_85,usm_0.66_1.00_0.01/b374e6_ec2cf5f97cfc4d4792924597982b2a7f~mv2.webp'
+    img: 'https://readinessit.com/wp-content/uploads/2019/06/Logo_ReadinessIT_beyond_digital_experience-01.png'
   };
 
   constructor() { }
