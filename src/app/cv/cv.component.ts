@@ -7,6 +7,7 @@ export interface Archieve{
   desc:string;
   tipo:string;
   img:string;
+  url:string;
 };
 
 @Component({
@@ -26,7 +27,8 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Egresado de Ingeniería en Informática',
     desc: '',
     tipo: 'edu',
-    img: 'assets/img/duoc.png'
+    img: 'assets/img/duoc.png',
+    url: 'http://www.duoc.cl/inicio'
 
   };
   ed2: Archieve = {
@@ -35,7 +37,8 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Titulado de Ingeniería en Informática',
     desc: '',
     tipo: 'edu',
-    img: 'assets/img/duoc.png'
+    img: 'assets/img/duoc.png',
+    url:'http://www.duoc.cl/inicio'
   };
   ex1: Archieve = {
     year:'2010 - 2014',
@@ -43,7 +46,8 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Internship',
     desc: 'I developed a project called SRS (Segmentation Review System), which allows you to review the segmentation of captures of trucks loaded with wood.',
     tipo: 'exp',
-    img: 'assets/img/woodtech.webp'
+    img: 'assets/img/woodtech.webp',
+    url: 'http://www.woodtechms.com/'
   };
   ex2: Archieve = {
     year:'2014 - 2016',
@@ -51,7 +55,8 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Junior Software Engineer',
     desc: 'Team member of OyS (Operations and services), i worked in the continuous improvement of the software delivered to Woodtech\'s customers. My functions were develop software, create reports of log measures for a sawmill located in the USA.',
     tipo: 'exp',
-    img: 'https://static.wixstatic.com/media/b374e6_ec2cf5f97cfc4d4792924597982b2a7f~mv2.png/v1/fill/w_277,h_59,al_c,q_85,usm_0.66_1.00_0.01/b374e6_ec2cf5f97cfc4d4792924597982b2a7f~mv2.webp'
+    img: 'assets/img/woodtech.webp',
+    url:'http://www.woodtechms.com/'
   };
   ex3: Archieve = {
     year:'2019 - 2020',
@@ -59,7 +64,8 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Trainee',
     desc: 'During 4 months, i learned HTML5, CSS, GIT, Angular y EOC (Ericsson Order Care) a technology used as Back-End to manage the operations of many external systems, also developed a simple web site simulating a shop with a shopping cart system using Angular. Then, i traveled to Fundao, Portugal for 1 month to learn how operates the development team in Portugal. Currently, im working at the bot team, solving issues that happens at production in the system OneClick.',
     tipo: 'exp',
-    img: 'https://readinessit.com/wp-content/uploads/2019/06/Logo_ReadinessIT_beyond_digital_experience-01.png'
+    img: 'https://readinessit.com/wp-content/uploads/2019/06/Logo_ReadinessIT_beyond_digital_experience-01.png',
+    url: 'https://readinessit.com/'
   };
 
   constructor() { }

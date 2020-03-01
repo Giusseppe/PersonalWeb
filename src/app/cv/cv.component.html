@@ -18,12 +18,14 @@
             <div class="row p-2">
               <div class="col-lg-12">
                 <div class="row">
+                  <a href="{{item.url}}" target="_blank">
                   <img
                     class="logo ml-3"
                     alt="{{item.university}}"
                     [src]="item.img"
                   />
-                </div>
+                </a>
+              </div>
                 <div class="row py-2">
                   <h5 class="container-fluid  text-white">{{ item.title }}</h5>
                 </div>
@@ -47,11 +49,13 @@
             <div class="row p-2">
               <div class="col-lg-12">
                 <div class="row">
+                  <a href="{{item.url}}"  target="_blank" >
                   <img
                     class="logo ml-3 py-2"
                     alt="{{item.university}}"
                     [src]="item.img"
                   />
+                </a>
                 </div>
                 <div class="row">
                   <h5 class="container-fluid text-white">{{ item.title }}</h5>
