@@ -26,7 +26,7 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Egresado de Ingeniería en Informática',
     desc: '',
     tipo: 'edu',
-    img: 'http://www.duoc.cl/sites/default/files/logo-2019-.png'
+    img: 'assets/img/duoc.png'
 
   };
   ed2: Archieve = {
@@ -35,7 +35,7 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Titulado de Ingeniería en Informática',
     desc: '',
     tipo: 'edu',
-    img: 'http://www.duoc.cl/sites/default/files/logo-2019-.png'
+    img: 'assets/img/duoc.png'
   };
   ex1: Archieve = {
     year:'2010 - 2014',
@@ -43,7 +43,7 @@ export class CvComponent implements OnInit,OnDestroy {
     title: 'Internship',
     desc: 'I developed a project called SRS (Segmentation Review System), which allows you to review the segmentation of captures of trucks loaded with wood.',
     tipo: 'exp',
-    img: 'https://static.wixstatic.com/media/b374e6_ec2cf5f97cfc4d4792924597982b2a7f~mv2.png/v1/fill/w_277,h_59,al_c,q_85,usm_0.66_1.00_0.01/b374e6_ec2cf5f97cfc4d4792924597982b2a7f~mv2.webp'
+    img: 'assets/img/woodtech.webp'
   };
   ex2: Archieve = {
     year:'2014 - 2016',
