@@ -32,6 +32,14 @@
     </div>
     <!-- tech -->
     <div class="row">
+      <div class="col-sm-12 col-md-5 col-lg-5 my-auto mb-3">
+        <h3 class="text-white">Technologies</h3>
+      </div>
+    </div>
 
+      <div class="row p-3 no-gutters">
+          <div class="p-2 my-auto" *ngFor="let item of techs">
+              <img src="{{item.url}}" alt="{{item.nombre}}" height="auto" width="{{item.ancho}}"/>
+          </div>
     </div>
   </div>
