@@ -25,10 +25,13 @@ export class MeComponent implements OnInit {
 
   ngOnInit() {
     this.populate();
-    this.udemyService.getCourses().subscribe(cursos => this.courses = cursos);
+    this.udemyService.getCourses().subscribe(cursos => {
+      this.courses = cursos;
+      console.log(cursos);
+    });
   }
 
-  populate(){
+  populate() {
     this.techs.push(this.tech1);
     this.techs.push(this.tech2);
     this.techs.push(this.tech3);
