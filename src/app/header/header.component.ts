@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -13,10 +14,17 @@ export class HeaderComponent implements OnInit {
   portafolio: string = "Portafolio";
   ocio: string = "dumb stuff";
   contacto: string = "Contact";
+  languages = ['EN','ES','PT'];
+  currentLanguaje = this.translateService.getDefaultLang().toUpperCase();
 
-  constructor() { }
+  constructor(private translateService: TranslateService) { }
 
   ngOnInit() {
   }
 
+  changeLanguage(language: string){
+    console.log('Lang changed to '+language.toLowerCase());
+    this.currentLanguaje = language.toUpperCase();
+    this.translateService.use(language.toLowerCase());
+  }
 }

@@ -11,9 +11,14 @@ import { CvComponent } from './cv/cv.component';
 import { MeComponent } from './me/me.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MainComponent } from './main/main.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { UdemyService } from './udemy.service';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/translations/', '.json');
+}
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +34,15 @@ import { UdemyService } from './udemy.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient],
+
+    }
+  })
   ],
   providers: [UdemyService],
   bootstrap: [AppComponent]
