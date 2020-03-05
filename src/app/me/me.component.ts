@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UdemyService } from '../udemy.service';
 
 @Component({
   selector: 'app-me',
@@ -8,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class MeComponent implements OnInit {
 
   techs: {nombre:string, url:string,ancho:string}[] = [];
-  constructor() { }
+  courses: any[];
+  constructor(private udemyService: UdemyService) { }
 
   tech1={nombre: 'HTML5',url :'assets/img/techs/html5.png',ancho: '80'};
   tech2={nombre: 'CSS3',url :'assets/img/techs/css3.png',ancho: '80'};
@@ -20,11 +22,16 @@ export class MeComponent implements OnInit {
   tech8={nombre: 'SPRING',url :'assets/img/techs/spring.png',ancho: '80'};
   tech9={nombre: 'MYSQL',url :'assets/img/techs/mysql.png',ancho: '120'};
   tech10={nombre: 'ORACLE',url :'assets/img/techs/oracle.png',ancho: '120'};
+
   ngOnInit() {
     this.populate();
+    this.udemyService.getCourses().subscribe(cursos => {
+      this.courses = cursos;
+      console.log(cursos);
+    });
   }
 
-  populate(){
+  populate() {
     this.techs.push(this.tech1);
     this.techs.push(this.tech2);
     this.techs.push(this.tech3);

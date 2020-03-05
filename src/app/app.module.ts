@@ -11,6 +11,8 @@ import { CvComponent } from './cv/cv.component';
 import { MeComponent } from './me/me.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MainComponent } from './main/main.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UdemyService } from './udemy.service';
 
 @NgModule({
   declarations: [
@@ -26,9 +28,10 @@ import { MainComponent } from './main/main.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [UdemyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
