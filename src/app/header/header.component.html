@@ -4,22 +4,8 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="nav navbar-nav ml-auto mt-3">
-      <!-- languaje selccion -->
-      <li class="nav-item mr-3">
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            {{currentLanguaje}}
-          </button>
-          <div class="bg-dark dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <ng-container *ngFor="let item of languages">
-              <a class="nav-link dropdown-item" *ngIf="currentLanguaje !== item" type="button"
-                (click)="changeLanguage(item)">{{item}}</a>
-            </ng-container>
-          </div>
-        </div>
-      </li>
+    <ul class="nav navbar-nav my-auto mr-auto mt-3">
+
       <li class="nav-item mr-3">
         <a class="nav-link" routerLink="/" href="/">{{'header.me' | translate}} </a>
       </li>
@@ -37,4 +23,17 @@
       </li>
     </ul>
   </div>
+  <!-- languaje selccion -->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        {{currentLanguaje}}
+      </button>
+      <div class="bg-dark dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <ng-container *ngFor="let item of languages">
+          <a class="nav-link dropdown-item" *ngIf="currentLanguaje !== item" type="button"
+            (click)="changeLanguage(item)">{{item}}</a>
+        </ng-container>
+      </div>
+    </div>
 </nav>
