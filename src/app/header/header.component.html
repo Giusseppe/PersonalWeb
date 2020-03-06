@@ -1,26 +1,22 @@
 <nav class="navbar navbar-expand-lg navbar-dark header">
-
-
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="nav navbar-nav ml-auto mt-3">
+      <!-- languaje selccion -->
       <li class="nav-item mr-3">
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             {{currentLanguaje}}
           </button>
-          <div class="bg-dark dropdown-menu" aria-labelledby="dropdownMenuButton" >
-            <ng-container *ngFor="let item of languages" >
-              <a class="nav-link dropdown-item"
-              *ngIf="currentLanguaje !== item"
-                    type="button"
-                    (click)="changeLanguage(item)">{{item}}</a>
+          <div class="bg-dark dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ng-container *ngFor="let item of languages">
+              <a class="nav-link dropdown-item" *ngIf="currentLanguaje !== item" type="button"
+                (click)="changeLanguage(item)">{{item}}</a>
             </ng-container>
-
           </div>
         </div>
       </li>
@@ -34,10 +30,10 @@
         <a class="nav-item nav-link" routerLink="#" href="#">{{'header.portafolio' | translate}}</a>
       </li>
       <li class="nav-item mr-3">
-        <a class="nav-item nav-link" routerLink="#"href="#">{{'header.dumbstuff' | translate}}</a>
+        <a class="nav-item nav-link" routerLink="#" href="#">{{'header.dumbstuff' | translate}}</a>
       </li>
       <li class="nav-item mr-3">
-        <a class="nav-item nav-link" routerLink="#"href="#">{{'header.contact' | translate}}</a>
+        <a class="nav-item nav-link" routerLink="#" href="#">{{'header.contact' | translate}}</a>
       </li>
     </ul>
   </div>
