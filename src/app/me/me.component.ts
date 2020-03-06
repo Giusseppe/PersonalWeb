@@ -9,8 +9,7 @@ import { UdemyService } from '../udemy.service';
 export class MeComponent implements OnInit {
 
   techs: {nombre:string, url:string,ancho:string}[] = [];
-  courses: any[];
-  constructor(private udemyService: UdemyService) { }
+  constructor() { }
 
   tech1={nombre: 'HTML5',url :'assets/img/techs/html5.png',ancho: '80'};
   tech2={nombre: 'CSS3',url :'assets/img/techs/css3.png',ancho: '80'};
@@ -25,10 +24,6 @@ export class MeComponent implements OnInit {
 
   ngOnInit() {
     this.populate();
-    this.udemyService.getCourses().subscribe(cursos => {
-      this.courses = cursos;
-      console.log(cursos);
-    });
   }
 
   populate() {

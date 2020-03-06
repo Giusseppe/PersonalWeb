@@ -1,5 +1,51 @@
 {
+  "header":{
+    "me": "Sobre mim",
+    "cv": "Currículo",
+    "portafolio": "Portafolio",
+    "dumbstuff": "Coisas estúpidas",
+    "contact": "Contato"
+  },
+  "main": {
+    "me": {
+      "title": "Programador Full-Stack",
+      "desc":"oi, meu nome é Giusseppe, sou engenheiro de software e adoro o que escolhi fazer na vida, enche minha alma, sou apaixonado por isso, sou um nerd que sei que sei. Demorei um pouco para perceber que eu precisava aprender constantemente, então tento fazer cursos udemy com muita frequência para aprender coisas novas para me manter atualizado com as novas tecnologias. Sou um usuário ativo e vinculado. Convido pessoas a expandir minha rede, compartilhar e se informar.",
+      "techs":"Tecnologias"
+    },
+    "cv":{
+      "education": {
+        "title":"Educação",
+        "edu1": "Engenheiro de software incompleto (Todas as assinaturas aprovadas)",
+        "edu2": "Software Engineer Degree Obtained"},
+      "experience": {
+        "title":"Experiência",
+        "exp1":{
+          "title":"Estágio",
+          "desc":"Desenvolvi um projeto chamado SRS (Segmentation Review System), que permite revisar a segmentação de capturas de caminhões carregados com madeira."
+        },
+        "exp2":{
+          "title": "Junior Engenheiro de software",
+          "desc": "Membro da equipe da OyS (Operações e serviços), trabalhei na melhoria contínua do software entregue aos clientes da Woodtech. Minhas funções eram desenvolver software, criar relatórios de medidas de toras para uma serraria localizada nos EUA."
+        },
+        "exp3":{
+          "title":"Estagiário (Trainee)",
+          "desc":"Durante 4 meses, aprendi HTML5, CSS, GIT, Angular e EOC (Ericsson Order Care), uma tecnologia usada como Back-End para gerenciar as operações de muitos sistemas externos, também desenvolvi um site simples simulando uma loja com um sistema de carrinho de compras usando Angular. Então, eu viajei para Fundao, Portugal por 1 mês para aprender como opera a equipe de desenvolvimento em Portugal. Atualmente, estou trabalhando na equipe de bot, resolvendo problemas que acontecem na produção no sistema OneClick."
+        }
+      }
+    },
+    "portafolio":{
+
+    },
+    "dumbstuff":{
+
+    },
+    "contact":{
+      "name":"Nome",
+      "email":"Email"
+    }
+
+  },
   "footer": {
-    "text":"que acontece"
+    "text":"e aí"
   }
 }

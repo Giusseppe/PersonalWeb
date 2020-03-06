@@ -1,4 +1,50 @@
 {
+  "header":{
+    "me": "About Me",
+    "cv": "Resume",
+    "portafolio": "Portafolio",
+    "dumbstuff": "Dumb stuff",
+    "contact": "Contact"
+  },
+  "main": {
+    "me": {
+      "title": "Full-Stack Developer",
+      "desc":"Hello!, my name is Giusseppe, i'm a software engineer and i love what i choosed to do in life, it fills my soul, I'm passionate about it, i'm a nerd i know i know. It took me a while to realize that i must learn constantly, so i try to do udemy courses very often to learn new things to keep me updated with new technologies. I'm an active linkedIn user, i invite people to expand my network, to share and to get informed.",
+      "techs":"Technologies"
+    },
+    "cv":{
+      "education": {
+        "title":"Education",
+        "edu1": "Incomplete Software Engineer Degree (All signatures Approved)",
+        "edu2": "Software Engineer Degree Obtained"},
+      "experience": {
+        "title":"Experience",
+        "exp1":{
+          "title":"Intership",
+          "desc":"I developed a project called SRS (Segmentation Review System), which allows you to review the segmentation of captures of trucks loaded with wood."
+        },
+        "exp2":{
+          "title": "Junior Software Engineer",
+          "desc": "Team member of OyS (Operations and services), i worked in the continuous improvement of the software delivered to Woodtech's customers. My functions were develop software, create reports of log measures for a sawmill located in the USA."
+        },
+        "exp3":{
+          "title":"Trainee",
+          "desc":"During 4 months, i learned HTML5, CSS, GIT, Angular y EOC (Ericsson Order Care) a technology used as Back-End to manage the operations of many external systems, also developed a simple web site simulating a shop with a shopping cart system using Angular. Then, i traveled to Fundao, Portugal for 1 month to learn how operates the development team in Portugal. Currently, im working at the bot team, solving issues that happens at production in the system OneClick."
+        }
+      }
+    },
+    "portafolio":{
+
+    },
+    "dumbstuff":{
+
+    },
+    "contact":{
+      "name":"Name",
+      "email":"Email"
+    }
+
+  },
   "footer": {
     "text":"what's up"
   }
