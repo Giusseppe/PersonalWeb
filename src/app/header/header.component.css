@@ -2,3 +2,19 @@
   background-color: #243447;
   border-bottom: 1px solid rgba(90,111,128,.78);
 }
+
+.dropdown {list-style: none; background: #243447; display: inline-block;}
+.dropdown .nav-link {color:#000; text-decoration: none;}
+.dropdown .dropdown-menu a{color: #fff; text-decoration: none;}
+.dropdown .btn {background: #243447; color:#fff;}
+.dropdown .btn:hover {background: #526781; color:#fff;}
+.dropdown .btn:active {background: #526781; color:#fff;}
+.dropdown .btn:focus {background: #526781; color:#fff;}
+.dropdown-menu .dropdown-item {display: inline-block; width: 100%; }
+.dropdown-menu .dropdown-item:hover {background: #526781; color:#000; }
+.container .dropdown .dropdown-menu a:hover
+{
+  color: rgba(90,111,128,.78);
+  background-color: #b91773;
+  border-color: rgba(90,111,128,.78);
+}
