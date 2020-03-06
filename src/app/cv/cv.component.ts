@@ -24,7 +24,7 @@ export class CvComponent implements OnInit,OnDestroy {
   ed1: Archieve = {
     year:'2010 - 2014',
     university: 'Duoc UC Viña del mar',
-    title: 'Egresado de Ingeniería en Informática',
+    title: 'Titulado de Ingeniería en Informática',
     desc: '',
     tipo: 'edu',
     img: 'assets/img/duoc.png',
@@ -89,6 +89,8 @@ export class CvComponent implements OnInit,OnDestroy {
   clean(){
     this.exps = [];
   }
+
+
 
 
 }
