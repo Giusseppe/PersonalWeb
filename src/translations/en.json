@@ -42,7 +42,8 @@
     },
     "contact":{
       "name":"Name",
-      "email":"Email"
+      "email":"Email",
+      "message":"Message"
     }
 
   },

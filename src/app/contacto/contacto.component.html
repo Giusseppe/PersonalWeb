@@ -3,13 +3,27 @@
     <h1 class="text-white">{{'header.contact' | translate}}</h1>
   </div>
   <!-- contact -->
-  <div class="row p- pl-lg-0">
-    <div class="m-auto">
-      <a href="mailto:gi.velizr@gmail.com"
-         class="badge badge-primary p-3">
-        <h2>GI.VELIZR@GMAIL.COM <img height="auto" width="35px"src="assets/img/gmail.png"/></h2>
-      </a>
+  <div class="container">
+    <div class="col-12 col-md-8 mx-auto">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">{{'main.contact.name' | translate}}</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{'main.contact.name' | translate}}">
+          <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">{{'main.contact.email' | translate}}</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="{{'main.contact.email' | translate}}">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">{{'main.contact.message' | translate}}</label>
+          <textarea class="form-control txtareaa" aria-label="With textarea" placeholder="{{'main.contact.message' | translate}}" ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </div>
+
+
   </div>
 
 </div>

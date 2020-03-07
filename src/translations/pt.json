@@ -41,7 +41,8 @@
     },
     "contact":{
       "name":"Nome",
-      "email":"Email"
+      "email":"Email",
+      "message":"Mensagem"
     }
 
   },
