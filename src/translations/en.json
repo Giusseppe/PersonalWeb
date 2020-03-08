@@ -43,7 +43,8 @@
     "contact":{
       "name":"Name",
       "email":"Email",
-      "message":"Message"
+      "message":"Message",
+      "email-desc": "I'll never share your email with anyone else."
     }
 
   },

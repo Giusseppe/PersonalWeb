@@ -42,7 +42,8 @@
     "contact":{
       "name":"Nome",
       "email":"Email",
-      "message":"Mensagem"
+      "message":"Mensagem",
+      "email-desc": "Nunca compartilharei seu email com outra pessoa."
     }
 
   },
