@@ -7,29 +7,52 @@
 <div class="container py-4">
   <!-- aboutme -->
   <div class="row pt-3  no-gutters">
-    <div class="col-sm-12 col-md-5 col-lg-5 my-auto">
+    <div class="col-sm-12 col-md-5 col-md-5 my-auto">
       <img src="assets/img/yupe.jpg" alt="Giusseppe Veliz Rojas" class="yo shadow rounded-circle mx-auto d-block" />
     </div>
-    <div class="col-sm-12 col-md-7 col-lg-7 my-auto">
+    <div class="col-sm-12 col-md-7 col-md-7 my-auto">
       <div>
         <h4 class="text-muted">{{'main.me.title' | translate}}</h4>
         <h1 class="text-white">Giusseppe Veliz Rojas</h1>
-        <p class="text-white-50">
+        <p class="text-white-50 text-justify">
           {{'main.me.desc' | translate}}
         </p>
       </div>
     </div>
   </div>
   <!-- tech -->
-  <div class="row">
-    <div class="col-sm-12 col-md-5 col-lg-5 my-auto mb-3">
-      <h3 class="text-white">{{'main.me.techs' | translate}}</h3>
-    </div>
-  </div>
 
-  <div class="row p-3 no-gutters">
-    <div class="p-2 my-auto" *ngFor="let item of techs">
-      <img src="{{item.url}}" alt="{{item.nombre}}" height="auto" width="{{item.ancho}}" />
-    </div>
+  <div class="row justify-content-center p-2 no-gutters">
+      <h3 class="text-white">{{'main.me.techs' | translate}}</h3>
+  </div>
+  <div class="row justify-content-center p-2 no-gutters">
+      <div class="col-md-2 col-6" >
+        <h5 class="m-auto p-1 text-white">Lenguajes</h5>
+        <div class="row py-auto px-3" *ngFor="let item of langs">
+          <img class="p-1 "src="{{item.url}}" alt="{{item.nombre}}" height="auto" width="{{item.ancho}}" />
+          <span class="my-auto p-1 text-white">{{item.nombre}}</span>
+       </div>
+      </div>
+      <div class="col-md-2 col-6" >
+        <h6 class="m-auto p-1 text-white">Front End</h6>
+        <div class="row y-auto px-3" *ngFor="let item of fes">
+          <img class="p-1"src="{{item.url}}" alt="{{item.nombre}}" height="auto" width="{{item.ancho}}" />
+          <span class="my-auto p-1 text-white">{{item.nombre}}</span>
+       </div>
+      </div>
+      <div class="col-md-2 col-6" >
+        <h6 class="m-auto p-1 text-white">Back End</h6>
+        <div class="row y-auto px-3" *ngFor="let item of bes">
+          <img class="p-1"src="{{item.url}}" alt="{{item.nombre}}" height="auto" width="{{item.ancho}}" />
+          <span class="my-auto p-1 text-white">{{item.nombre}}</span>
+       </div>
+      </div>
+      <div class="col-md-2 col-6" >
+        <h6 class="m-auto p-1 text-white">Database</h6>
+        <div class="row y-auto px-3" *ngFor="let item of dbs">
+          <img class="p-1"src="{{item.url}}" alt="{{item.nombre}}" height="auto" width="{{item.ancho}}" />
+          <span class="my-auto p-1 text-white">{{item.nombre}}</span>
+       </div>
+      </div>
   </div>
 </div>

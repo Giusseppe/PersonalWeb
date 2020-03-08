@@ -8,34 +8,38 @@ import { UdemyService } from '../udemy.service';
 })
 export class MeComponent implements OnInit {
 
-  techs: {nombre:string, url:string,ancho:string}[] = [];
+  fes: {nombre:string, type: string,url:string,ancho:string}[] = [];
+  bes: {nombre:string, type: string,url:string,ancho:string}[] = [];
+  langs: {nombre:string, type: string,url:string,ancho:string}[] = [];
+  dbs: {nombre:string, type: string,url:string,ancho:string}[] = [];
   constructor() { }
 
-  tech1={nombre: 'HTML5',url :'assets/img/techs/html5.png',ancho: '80'};
-  tech2={nombre: 'CSS3',url :'assets/img/techs/css3.png',ancho: '80'};
-  tech3={nombre: 'BOOTSTRAP',url :'assets/img/techs/bootstrap.png',ancho: '80'};
-  tech4={nombre: 'JAVASCRIPT',url :'assets/img/techs/js.png',ancho: '80'};
-  tech5={nombre: 'TYPESCRIPT',url :'assets/img/techs/typescript.png',ancho: '80'};
-  tech6={nombre: 'ANGULAR 8',url :'assets/img/techs/angular.svg',ancho: '80'};
-  tech7={nombre: 'JAVA',url :'assets/img/techs/java.png',ancho: '80'};
-  tech8={nombre: 'SPRING',url :'assets/img/techs/spring.png',ancho: '80'};
-  tech9={nombre: 'MYSQL',url :'assets/img/techs/mysql.png',ancho: '120'};
-  tech10={nombre: 'ORACLE',url :'assets/img/techs/oracle.png',ancho: '120'};
+  tech1={nombre: 'HTML5',type: 'FE',url :'assets/img/techs/html5.png',ancho: '40'};
+  tech2={nombre: 'CSS3',type: 'FE',url :'assets/img/techs/css3.png',ancho: '40'};
+  tech3={nombre: 'BOOTSTRAP',type: 'FE',url :'assets/img/techs/bootstrap.png',ancho: '40'};
+  tech4={nombre: 'ANGULAR 8',type: 'FE',url :'assets/img/techs/angular.svg',ancho: '40'};
+  tech5={nombre: 'SPRING',type: 'BE',url :'assets/img/techs/spring.png',ancho: '40'};
+  tech6={nombre: 'JAVASCRIPT',type: 'LANG',url :'assets/img/techs/js.png',ancho: '40'};
+  tech7={nombre: 'TYPESCRIPT',type: 'LANG',url :'assets/img/techs/typescript.png',ancho: '40'};
+  tech8={nombre: 'JAVA',type: 'LANG',url :'assets/img/techs/java.png',ancho: '40'};
+  tech9={nombre: 'MYSQL',type: 'DB',url :'assets/img/techs/mysql.png',ancho: '100'};
+  tech10={nombre: 'ORACLE',type: 'DB',url :'assets/img/techs/oracle.png',ancho: '100'};
 
   ngOnInit() {
     this.populate();
   }
 
   populate() {
-    this.techs.push(this.tech1);
-    this.techs.push(this.tech2);
-    this.techs.push(this.tech3);
-    this.techs.push(this.tech4);
-    this.techs.push(this.tech5);
-    this.techs.push(this.tech6);
-    this.techs.push(this.tech7);
-    this.techs.push(this.tech8);
-    this.techs.push(this.tech9);
-    this.techs.push(this.tech10);
+    this.fes.push(this.tech1);
+    this.fes.push(this.tech2);
+    this.fes.push(this.tech3);
+    this.fes.push(this.tech4);
+    this.bes.push(this.tech5)
+    this.langs.push(this.tech6)
+    this.langs.push(this.tech7)
+    this.langs.push(this.tech8)
+    this.dbs.push(this.tech9);
+    this.dbs.push(this.tech10);
+
   }
 }
