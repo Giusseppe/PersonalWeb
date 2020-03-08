@@ -19,3 +19,10 @@
   background-color: #b91773;
   border-color: rgba(90,111,128,.78);
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}

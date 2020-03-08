@@ -5,11 +5,16 @@
 }
 
 .logo {
-  width:180px;
-  height:auto;
-
+  width: 180px;
+  height: auto;
 }
 
 .text-desc {
-  color: #D7D7D7;
+  color: #d7d7d7;
+}
+
+.grayBorders {
+  background-color: rgba(24, 67, 102, 0.78);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
