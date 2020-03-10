@@ -9,5 +9,6 @@ label,span,p,h1,h2,h3,h4,h5 {
 }
 
 .cardStyle{
-  background-color:  rgba(24, 67, 102, 0.78);;
+  background-color:  rgba(24, 67, 102, 0.78);
+  width: 20rem;
 }
