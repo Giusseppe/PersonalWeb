@@ -7,3 +7,7 @@ label,span,p,h1,h2,h3,h4,h5 {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
+
+.cardStyle{
+  background-color:  rgba(24, 67, 102, 0.78);;
+}

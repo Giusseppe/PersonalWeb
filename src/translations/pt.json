@@ -34,7 +34,17 @@
       }
     },
     "portafolio":{
-
+      "seeMore":"Ver mais",
+      "p1": {
+        "id": "1",
+        "title": "PersonalWeb",
+        "desc" : "portuyes"
+      },
+      "p2": {
+        "id": "2",
+        "title": "PersonalWeb2",
+        "desc" : "portuyes2"
+      }
     },
     "dumbstuff":{
 

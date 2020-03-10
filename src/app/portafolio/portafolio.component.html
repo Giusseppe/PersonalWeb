@@ -3,8 +3,16 @@
     <h1 class="text-white mx-auto">{{'header.portafolio' | translate}}</h1>
   </div>
 </div>
-
 <div class="container py-5">
   <!-- portafolio -->
-
+  <div class="row d-inline-flex m-1" *ngFor="let item of proyectos" style="width: 18rem;">
+      <div class="card cardStyle p-1"  style="width: 18rem;">
+        <img src="{{item.img}}" class="card-img-top" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">{{item.title | translate}}</h5>
+          <p class="card-text">{{item.desc | translate}}</p>
+          <button  class="btn btn-primary">{{'main.portafolio.seeMore' | translate}}</button>
+        </div>
+    </div>
+  </div>
 </div>

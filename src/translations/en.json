@@ -35,7 +35,17 @@
       }
     },
     "portafolio":{
-
+      "seeMore":"See more",
+      "p1": {
+        "id": "1",
+        "title": "PersonalWeb",
+        "desc" : "ingles"
+      },
+      "p2": {
+        "id": "2",
+        "title": "PersonalWeb2",
+        "desc" : "ingles2"
+      }
     },
     "dumbstuff":{
 
