@@ -25,7 +25,7 @@ export class PortafolioComponent implements OnInit {
   }
   populate() {
     this.proyectos.push({idProyecto:'main.portafolio.p1.id',title: 'main.portafolio.p1.title',desc:'main.portafolio.p1.desc',img: 'assets/img/proyects/p1.png'});
-    this.proyectos.push({idProyecto:'main.portafolio.p2.id',title: 'main.portafolio.p2.title',desc:'main.portafolio.p2.desc',img:'assets/img/proyects/p1.png'});
+    this.proyectos.push({idProyecto:'main.portafolio.p2.id',title: 'main.portafolio.p2.title',desc:'main.portafolio.p2.desc',img:'assets/img/proyects/p2.png'});
   }
 
 }

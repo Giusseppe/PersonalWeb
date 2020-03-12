@@ -6,11 +6,11 @@
 <div class="container py-5">
   <!-- portafolio -->
   <div class="row d-inline-flex m-1" *ngFor="let item of proyectos" style="width: 20rem;">
-      <div class="card cardStyle" >
-        <img src="{{item.img}}" class="card-img-top p-1" alt="...">
+      <div class="card cardStyle">
         <div class="card-body">
-          <h5 class="card-title">{{item.title | translate}}</h5>
-          <p class="card-text text-justify" style="min-height: 140px;">{{item.desc | translate}}</p>
+          <h5 class="card-title border-bottom gray">{{item.title | translate}}</h5>
+          <p class="card-text text-justify" >{{item.desc | translate}}</p>
+          <img src="{{item.img}}" class="card-img-top my-2" alt="...">
           <button  class="btn btn-primary w-100">{{'main.portafolio.seeMore' | translate}}</button>
         </div>
     </div>
