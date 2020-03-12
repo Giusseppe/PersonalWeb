@@ -22,8 +22,8 @@ export class MeComponent implements OnInit {
   tech6={nombre: 'JAVASCRIPT',type: 'LANG',url :'assets/img/techs/js.png',ancho: '40'};
   tech7={nombre: 'TYPESCRIPT',type: 'LANG',url :'assets/img/techs/typescript.png',ancho: '40'};
   tech8={nombre: 'JAVA',type: 'LANG',url :'assets/img/techs/java.png',ancho: '40'};
-  tech9={nombre: 'MYSQL',type: 'DB',url :'assets/img/techs/mysql.png',ancho: '100'};
-  tech10={nombre: 'ORACLE',type: 'DB',url :'assets/img/techs/oracle.png',ancho: '100'};
+  tech9={nombre: '',type: 'DB',url :'assets/img/techs/mysql.png',ancho: '110'};
+  tech10={nombre: '',type: 'DB',url :'assets/img/techs/oracle.png',ancho: '130'};
 
   ngOnInit() {
     this.populate();
