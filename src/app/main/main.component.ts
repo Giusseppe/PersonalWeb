@@ -13,10 +13,10 @@ export class MainComponent implements OnInit {
 
   ngOnInit() {
 
-    this.udemyService.getCourses().subscribe(cursos => {
-      this.courses = cursos;
-      console.log(cursos);
-    });
+    // this.udemyService.getCourses().subscribe(cursos => {
+    //   this.courses = cursos;
+    //   console.log(cursos);
+    // });
   }
 
 }

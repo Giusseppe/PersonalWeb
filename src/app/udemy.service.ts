@@ -27,8 +27,8 @@ export class UdemyService {
         'Access-Control-Allow-Methods' : 'GET,OPTIONS'
       })
     };
-    console.log('auth :'+this.autorization);
-    console.log('httpOptions :'+httpOptions);
+    // console.log('auth :'+this.autorization);
+    // console.log('httpOptions :'+httpOptions);
     return this.http.get<any[]>(this.urlEndPoint,httpOptions);
   }
 }

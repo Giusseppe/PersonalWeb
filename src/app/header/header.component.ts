@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
   }
 
   changeLanguage(language: string){
-    console.log('Lang changed to '+language.toLowerCase());
+    // console.log('Lang changed to '+language.toLowerCase());
     this.currentLanguaje = language.toUpperCase();
     this.translateService.use(language.toLowerCase());
   }
