@@ -1,15 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { OcioComponent } from './ocio/ocio.component';
-import { PortafolioComponent } from './portafolio/portafolio.component';
-import { CvComponent } from './cv/cv.component';
-import { MeComponent } from './me/me.component';
-import { ContactoComponent } from './contacto/contacto.component';
+import { OcioComponent } from './main/ocio/ocio.component';
+import { PortafolioComponent } from './main/portafolio/portafolio.component';
+import { CvComponent } from './main/cv/cv.component';
+import { MeComponent } from './main/me/me.component';
+import { ContactoComponent } from './main/contacto/contacto.component';
 import { MainComponent } from './main/main.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { UdemyService } from './udemy.service';

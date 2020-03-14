@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CvComponent } from './cv/cv.component';
-import { PortafolioComponent } from './portafolio/portafolio.component';
-import { OcioComponent } from './ocio/ocio.component';
-import { MeComponent } from './me/me.component';
-import { ContactoComponent } from './contacto/contacto.component';
+import { CvComponent } from './main/cv/cv.component';
+import { PortafolioComponent } from './main/portafolio/portafolio.component';
+import { OcioComponent } from './main/ocio/ocio.component';
+import { MeComponent } from './main/me/me.component';
+import { ContactoComponent } from './main/contacto/contacto.component';
 
 const routes: Routes = [
   {path: '', component: MeComponent },
