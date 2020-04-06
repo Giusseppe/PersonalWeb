@@ -17,13 +17,14 @@ export class MeComponent implements OnInit {
   tech1={nombre: 'HTML5',type: 'FE',url :'assets/img/techs/html5.png',ancho: '40'};
   tech2={nombre: 'CSS3',type: 'FE',url :'assets/img/techs/css3.png',ancho: '40'};
   tech3={nombre: 'BOOTSTRAP',type: 'FE',url :'assets/img/techs/bootstrap.png',ancho: '40'};
-  tech4={nombre: 'ANGULAR 8',type: 'FE',url :'assets/img/techs/angular.svg',ancho: '40'};
-  tech5={nombre: 'SPRING',type: 'BE',url :'assets/img/techs/spring.png',ancho: '40'};
-  tech6={nombre: 'JAVASCRIPT',type: 'LANG',url :'assets/img/techs/js.png',ancho: '40'};
-  tech7={nombre: 'TYPESCRIPT',type: 'LANG',url :'assets/img/techs/typescript.png',ancho: '40'};
-  tech8={nombre: 'JAVA',type: 'LANG',url :'assets/img/techs/java.png',ancho: '40'};
-  tech9={nombre: '',type: 'DB',url :'assets/img/techs/mysql.png',ancho: '110'};
-  tech10={nombre: '',type: 'DB',url :'assets/img/techs/oracle.png',ancho: '130'};
+  tech4={nombre: 'MATERIAL DESIGN',type: 'FE',url :'assets/img/techs/mt.png',ancho: '40'};
+  tech5={nombre: 'ANGULAR 8',type: 'FE',url :'assets/img/techs/angular.svg',ancho: '40'};
+  tech6={nombre: 'SPRING',type: 'BE',url :'assets/img/techs/spring.png',ancho: '40'};
+  tech7={nombre: 'JAVASCRIPT',type: 'LANG',url :'assets/img/techs/js.png',ancho: '40'};
+  tech8={nombre: 'TYPESCRIPT',type: 'LANG',url :'assets/img/techs/typescript.png',ancho: '40'};
+  tech9={nombre: 'JAVA',type: 'LANG',url :'assets/img/techs/java.png',ancho: '40'};
+  tech10={nombre: '',type: 'DB',url :'assets/img/techs/mysql.png',ancho: '110'};
+  tech11={nombre: '',type: 'DB',url :'assets/img/techs/oracle.png',ancho: '130'};
 
   ngOnInit() {
     this.populate();
@@ -40,6 +41,9 @@ export class MeComponent implements OnInit {
     this.langs.push(this.tech8)
     this.dbs.push(this.tech9);
     this.dbs.push(this.tech10);
+  }
 
+  downloadFile(){
+      window.open('/assets/doc/Giusseppe_VelizCV.pdf', '_blank');
   }
 }

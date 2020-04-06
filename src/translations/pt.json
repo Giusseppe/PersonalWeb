@@ -10,7 +10,8 @@
     "me": {
       "title": "Programador Full-Stack",
       "desc":"oi, meu nome é Giusseppe, sou engenheiro de software e adoro o que escolhi fazer na vida, enche minha alma, sou apaixonado por isso. Demorei um pouco para perceber que eu precisava aprender constantemente, então tento fazer cursos udemy com muita frequência para aprender coisas novas para me manter atualizado com as novas tecnologias. Sou um usuário ativo e vinculado. Convido pessoas a expandir minha rede, compartilhar e se informar.",
-      "techs":"Tecnologias"
+      "techs":"Tecnologias",
+      "download":"Baixar CV"
     },
     "cv":{
       "education": {

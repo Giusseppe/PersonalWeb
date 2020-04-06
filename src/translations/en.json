@@ -10,7 +10,8 @@
     "me": {
       "title": "Full-Stack Developer",
       "desc":"Hello!, my name is Giusseppe, i'm a software engineer and i love what i choosed to do in life, it fills my soul, I'm passionate about it. It took me a while to realize that i must learn constantly, so i try to do udemy courses very often to learn new things to keep me updated with new technologies. I'm an active linkedIn user, i invite people to expand my network, to share and to get informed.",
-      "techs":"Technologies"
+      "techs":"Technologies",
+      "download":"Download CV"
     },
     "cv":{
       "education": {

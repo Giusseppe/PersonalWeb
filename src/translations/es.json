@@ -10,7 +10,8 @@
     "me": {
       "title": "Desarrollador Full-Stack",
       "desc":"¡Hola !, mi nombre es Giusseppe, soy ingeniero de software y me encanta lo que elegí hacer en la vida, me llena el alma, me apasiona. Me tomó un tiempo darme cuenta de que debo aprender constantemente, por lo que trato de hacer cursos a menudo para aprender cosas nuevas y mantenerme actualizado con las nuevas tecnologías. Soy un usuario activo en linkedIn, invito a personas para expandir mi red, compartir e informarme.",
-      "techs":"Tecnologías"
+      "techs":"Tecnologías",
+      "download":"Descargar CV"
     },
     "cv":{
       "education": {
