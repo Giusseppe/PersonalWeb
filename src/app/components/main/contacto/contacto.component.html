@@ -7,22 +7,25 @@
   <!-- contact -->
   <div class="container">
     <div class="col-12 col-md-8 mx-auto">
-      <!-- <form> -->
+      <form #formulario="ngForm">
         <div class="form-group">
           <label for="exampleInputPassword1">{{'main.contact.name' | translate}}</label>
-          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="{{'main.contact.name' | translate}}">
+          <input type="text" class="form-control" id="exampleInputPassword1"
+            placeholder="{{'main.contact.name' | translate}}" ngModel #name="ngModel">
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1">{{'main.contact.email' | translate}}</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{'main.contact.email' | translate}}">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="{{'main.contact.email' | translate}}">
           <small id="emailHelp" class="form-text text-muted">{{'main.contact.email-desc' | translate}}</small>
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">{{'main.contact.message' | translate}}</label>
-          <textarea class="form-control txtareaa" aria-label="With textarea" maxlength="355" placeholder="{{'main.contact.message' | translate}}" ></textarea>
+          <textarea class="form-control txtareaa" aria-label="With textarea" maxlength="355"
+            placeholder="{{'main.contact.message' | translate}}"></textarea>
         </div>
         <button disabled class="btn btn-primary">Enviar</button>
-      <!-- </form> -->
+      </form>
     </div>
   </div>
 </div>

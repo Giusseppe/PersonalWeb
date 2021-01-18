@@ -3,12 +3,12 @@
     <h1 class="text-white mx-auto">{{'header.cv' | translate}}</h1>
   </div>
 </div>
-<div class="container py-4" >
+<div class="container py-4">
   <!-- edus -->
   <div class="row mt-md-3 p-3 p-md-0">
     <div class="col-md-6 col-12">
       <div class="row mb-2">
-        <h3 class="text-white mx-md-auto">{{'main.cv.education.title' | translate}}</h3>
+        <h3 class="text-white text-center mx-md-auto border-bottom border-whie w-50"> <p class="mb-2">{{'main.cv.education.title' | translate}}</p></h3>
       </div>
       <div class="pr-md-5" *ngFor="let item of edus">
         <div class="row border-left border-bottom gray p-3">
@@ -35,17 +35,20 @@
     <!-- exps -->
     <div class="col-md-6 col-12">
       <div class="row mb-2">
-        <h3 class="text-white mx-md-auto">{{'main.cv.experience.title' | translate}}</h3>
+        <h3 class="text-white text-center mx-md-auto border-bottom border-whie w-50"> <p class="mb-2">{{'main.cv.experience.title' | translate}}</p></h3>
       </div>
       <div class="pr-md-5" *ngFor="let item of exps">
         <div class="row border-left border-bottom gray p-3">
           <div class="row container-fluid">
-            <div class="pill rounded-pill px-2 my-auto ml-n3 ml-md-n5 ml-n4 ">
-              <span class="text-white px-1">{{ item.year }}</span>
+            <div class="row  container-fluid">
+                <div class="pill rounded-pill px-2 my-auto ml-n3 ml-md-n5 ml-n4 text-center mr-1">
+                <span class="text-white px-1">{{ item.year | translate }}</span>
+                </div>
             </div>
           </div>
           <div class="row p-2">
             <div class="col-md-12">
+
               <div class="row">
                 <a href="{{item.url}}" target="_blank">
                   <img class="logo ml-3 py-2" alt="{{item.university}}" [src]="item.img" />
@@ -53,6 +56,9 @@
               </div>
               <div class="row">
                 <h5 class="container-fluid text-white">{{ item.title | translate }}</h5>
+              </div>
+              <div class="row">
+                <span class="container-fluid text-muted"><b>{{ item.duration | translate }}</b></span>
               </div>
               <div class="row">
                 <span class="container-fluid text-desc text-justify">{{ item.desc | translate}}</span>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { UdemyService } from '../udemy.service';
+import { UdemyService } from 'src/app/udemy.service';
 
 @Component({
   selector: 'app-main',

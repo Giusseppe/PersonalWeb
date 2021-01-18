@@ -1,5 +1,5 @@
 {
-  "header":{
+  "header": {
     "me": "Sobre mim",
     "cv": "Currículo",
     "portafolio": "Portafolio",
@@ -8,57 +8,73 @@
   },
   "main": {
     "me": {
-      "title": "Programador Full-Stack",
-      "desc":"oi, meu nome é Giusseppe, sou engenheiro de software e adoro o que escolhi fazer na vida, enche minha alma, sou apaixonado por isso. Demorei um pouco para perceber que eu precisava aprender constantemente, então tento fazer cursos udemy com muita frequência para aprender coisas novas para me manter atualizado com as novas tecnologias. Sou um usuário ativo e vinculado. Convido pessoas a expandir minha rede, compartilhar e se informar.",
-      "techs":"Tecnologias",
-      "download":"Baixar CV"
+      "title": "Programador Front-End",
+      "title-tooltip": "Aspirando a ser Full-Stack!!",
+      "desc": "¡Oi!, meu nome é Giusseppe, sou Engenheiro de Software e adoro o que escolhi fazer na vida, enche minha alma, sou apaixonado por isso. Demorei um pouco para perceber que eu precisava aprender constantemente, então tento fazer cursos Udemy com muita frequência para aprender coisas novas para me manter atualizado com as novas tecnologias. Sou um usuário ativo e vinculado no LinkedIn. Convido pessoas a expandir minha rede, compartilhar e se informar.",
+      "techs": "Tecnologias",
+      "download": "Baixar CV"
     },
-    "cv":{
+    "cv": {
       "education": {
-        "title":"Educação",
+        "title": "Educação",
         "edu1": "Engenheiro de software incompleto (Todas as assinaturas aprovadas)",
-        "edu2": "Graduado de engenheiro de software"},
+        "edu2": "Graduado de engenheiro de software"
+      },
       "experience": {
-        "title":"Experiência",
-        "exp1":{
-          "title":"Estágio",
-          "desc":"Desenvolvi um projeto chamado SRS (Segmentation Review System), que permite revisar a segmentação de capturas de caminhões carregados com madeira."
+        "title": "Experiência",
+        "exp1": {
+          "title": "Estágio",
+          "desc": "Desenvolvi um projeto chamado SRS (Segmentation Review System), que permite revisar a segmentação de capturas de caminhões carregados com madeira.",
+          "year": "Fevereiro 2014 - Abril 2014",
+          "duration": "3 Meses"
         },
-        "exp2":{
+        "exp2": {
           "title": "Junior Engenheiro de software",
-          "desc": "Membro da equipe da OyS (Operações e serviços), trabalhei na melhoria contínua do software entregue aos clientes da Woodtech. Minhas funções eram desenvolver software, criar relatórios de medidas de toras para uma serraria localizada nos EUA."
+          "desc": "Membro da equipe da OyS (Operações e serviços), trabalhei na melhoria contínua do software entregue aos clientes da Woodtech. Minhas funções eram desenvolver software, criar relatórios de medidas de toras para uma serraria localizada nos EUA.",
+          "year": "Maio 2014 - Abril 2016",
+          "duration": "2 Anos y 1 Mês"
         },
-        "exp3":{
-          "title":"Estagiário (Trainee)",
-          "desc":"Durante 4 meses, aprendi HTML5, CSS, GIT, Angular e EOC (Ericsson Order Care), uma tecnologia usada como Back-End para gerenciar as operações de muitos sistemas externos, também desenvolvi um site simples simulando uma loja com um sistema de carrinho de compras usando Angular. Então, eu viajei para Fundao, Portugal por 1 mês para aprender como opera a equipe de desenvolvimento em Portugal. Atualmente, estou trabalhando na equipe de bot, resolvendo problemas que acontecem na produção no sistema OneClick."
+        "exp3": {
+          "title": "Semi Senior Full Stack",
+          "desc": "Durante 4 meses, aprendi HTML5, CSS, GIT, Angular e EOC (Ericsson Order Care), uma tecnologia usada como Back-End para gerenciar as operações de muitos sistemas externos, também desenvolvi um site simples simulando uma loja com um sistema de carrinho de compras usando Angular. Então, eu viajei para Fundao, Portugal por 1 mês para aprender como opera a equipe de desenvolvimento em Portugal. Atualmente, estou trabalhando na equipe de bot, resolvendo problemas que acontecem na produção no sistema OneClick.",
+          "year": "Abril 2019 - Marcha 2020",
+          "duration": "1 Ano"
+        },
+        "exp4": {
+          "title": "Semi Senior Full Stack",
+          "desc": "Projeto de 3 meses, desenvolvimento de novas funcionalidades e correção de bugs, criação de web services e criação de stored procedures para 3 websites.",
+          "year": "Novembro 2019 - Atualmente",
+          "duration": "3 Meses"
         }
       }
     },
-    "portafolio":{
-      "seeMore":"Ver mais",
+    "portafolio": {
+      "seeMore": "Ver mais",
       "p1": {
         "id": "1",
         "title": "Web Pessoal",
-        "desc" : "É um site dedicado a mostrar meu perfil profissional como desenvolvedor Full-Stack, onde mostrei as tecnologias que conheço, carreira profissional e meus próprios projetos desenvolvidos."
+        "desc": "É um site dedicado a mostrar meu perfil profissional como desenvolvedor Full-Stack, onde mostrei as tecnologias que conheço, carreira profissional e meus próprios projetos desenvolvidos."
       },
       "p2": {
         "id": "2",
         "title": "Buy ur Gcard",
-        "desc" : "Site de compras onde você pode comprar, listar e adicionar placas de vídeo a um carrinho de compras (usando html5, css3 e js)"
+        "desc": "Site de compras onde você pode comprar, listar e adicionar placas de vídeo a um carrinho de compras."
+      },
+      "p3": {
+        "id": "3",
+        "title": "Firebase auth",
+        "desc": "Um site simples usando o Firebase para autenticar e armazenar sessões com a sua conta no Google. Além de consumir uma API para listar usuários."
       }
     },
-    "dumbstuff":{
-
-    },
-    "contact":{
-      "name":"Nome",
-      "email":"Email",
-      "message":"Mensagem",
+    "dumbstuff": {},
+    "contact": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
       "email-desc": "Nunca compartilharei seu email com outra pessoa."
     }
-
   },
   "footer": {
-    "text":"e aí"
+    "text": "e aí"
   }
 }

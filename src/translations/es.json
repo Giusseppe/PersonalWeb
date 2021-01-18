@@ -1,5 +1,5 @@
 {
-  "header":{
+  "header": {
     "me": "Acerca de mi",
     "cv": "Currivulum Vitae",
     "portafolio": "Portafolio",
@@ -8,57 +8,73 @@
   },
   "main": {
     "me": {
-      "title": "Desarrollador Full-Stack",
-      "desc":"¡Hola !, mi nombre es Giusseppe, soy ingeniero de software y me encanta lo que elegí hacer en la vida, me llena el alma, me apasiona. Me tomó un tiempo darme cuenta de que debo aprender constantemente, por lo que trato de hacer cursos a menudo para aprender cosas nuevas y mantenerme actualizado con las nuevas tecnologías. Soy un usuario activo en linkedIn, invito a personas para expandir mi red, compartir e informarme.",
-      "techs":"Tecnologías",
-      "download":"Descargar CV"
+      "title": "Desarrollador Front-End",
+      "title-tooltip": "Aspiro a ser Full-Stack!!",
+      "desc": "¡Hola !, mi nombre es Giusseppe, soy Ingeniero de Software y me encanta lo que elegí hacer en la vida, me llena el alma, me apasiona. Me tomó un tiempo darme cuenta de que debo aprender constantemente, por lo que trato de hacer cursos a menudo para aprender cosas nuevas y mantenerme actualizado con las nuevas tecnologías. Soy un usuario activo en LinkedIn, invito a personas para expandir mi red, compartir e informarme.",
+      "techs": "Tecnologías",
+      "download": "Descargar CV"
     },
-    "cv":{
+    "cv": {
       "education": {
-        "title":"Educacion",
+        "title": "Educacion",
         "edu1": "Egresado de Ingeniería en Informática",
-        "edu2": "Titulado de Ingeniería en Informática"},
+        "edu2": "Titulado de Ingeniería en Informática"
+      },
       "experience": {
-        "title":"Experiencia",
-        "exp1":{
-          "title":"Practica Profesional",
-          "desc":"Desarrolle un proeycto llamado SRS (Sistema de revisión de segmentaciones), que permite revisar la segmentacion de captura de camiones cargados con madera."
+        "title": "Experiencia",
+        "exp1": {
+          "title": "Practica Profesional",
+          "desc": "Desarrolle un proeycto llamado SRS (Sistema de revisión de segmentaciones), que permite revisar la segmentacion de captura de camiones cargados con madera.",
+          "year": "Febrero 2014 - Abril 2014",
+          "duration": "3 Meses"
         },
-        "exp2":{
+        "exp2": {
           "title": "Desarrollador Junior",
-          "desc": "Miembro del equipo OyS (Operaciones y servicios), trabajé en la mejora continua del software entregado a los clientes de Woodtech. Mis funciuones fueron programar, crear reportes de medidas de troncos para un aserradero ubicado en EEUU."
+          "desc": "Miembro del equipo OyS (Operaciones y servicios), trabajé en la mejora continua del software entregado a los clientes de Woodtech. Mis funciuones fueron programar, crear reportes de medidas de troncos para un aserradero ubicado en EEUU.",
+          "year": "Mayo 2014 - Abril 2016",
+          "duration": "2 Años y 1 Mes"
         },
-        "exp3":{
-          "title":"Aprendiz (Trainee)",
-          "desc":"Durante 4 meses, aprendí HTML5, CSS, GIT, Angular y EOC (Ericsson Order Care) una tecnología usaba como Back-End para manejar las operaciones de todos los sistemas externos, tambien desarrolle un sitio web simple que simula una tienda online con un carrito de compras desarrollado en Angular. Luego, viajé a Fundao, Portugal por un mes para aprender como opera el equipo de desarrollo en Portugal. Actualmente, estoy trabajando en el equipo solucionando problemas/bugs que ocurren en produccionen el sistema OneClick."
+        "exp3": {
+          "title": "Semi Senior Full Stack",
+          "desc": "Durante 4 meses, aprendí HTML5, CSS, GIT, Angular y EOC (Ericsson Order Care) una tecnología usaba como Back-End para manejar las operaciones de todos los sistemas externos, tambien desarrolle un sitio web simple que simula una tienda online con un carrito de compras desarrollado en Angular. Luego, viajé a Fundao, Portugal por un mes para aprender como opera el equipo de desarrollo en Portugal. Actualmente, estoy trabajando en el equipo solucionando problemas/bugs que ocurren en produccionen el sistema OneClick.",
+          "year": "Abril 2019 - Marzo 2020",
+          "duration": "1 Año"
+        },
+        "exp4": {
+          "title": "Semi Senior Full Stack",
+          "desc": "Proyecto de 3 meses, Desarrollo de nuevas funcionalidades y correcion de bugs en Angular, creacion de web services en Spring y creacion de procedimientos almacenados en SQL Server para 3 sitios web.",
+          "year": "Noviembre 2019 - Actualmente",
+          "duration": "3 Meses"
         }
       }
     },
-    "portafolio":{
-      "seeMore":"Ver más",
+    "portafolio": {
+      "seeMore": "Ver más",
       "p1": {
         "id": "1",
         "title": "Web Personal",
-        "desc" : "Es un sitio web dedicado a mostrar mi perfil profesional como desarrollador Full-Stack, en donde muestro las tecnologias que manejo, carrera profesional y proyectos realizados."
+        "desc": "Es un sitio web dedicado a mostrar mi perfil profesional como desarrollador Full-Stack, en donde muestro las tecnologias que manejo, carrera profesional y proyectos realizados."
       },
       "p2": {
         "id": "2",
-        "title": "PersonalWeb2",
-        "desc" : "español2"
+        "title": "Buy ur Gcard",
+        "desc": "Sitio web de compras donde puedes comprar, listar y agregar tarjetas graficas a un carrito de compras."
+      },
+      "p3": {
+        "id": "3",
+        "title": "Firebase auth",
+        "desc": "Un sitio simple que utiliza Firebase para la authentificacion, iniciar sesion con tu cuenta de google, almacenamiento de usuarios y consumo de api que lista usuarios."
       }
     },
-    "dumbstuff":{
-
-    },
-    "contact":{
-      "name":"Nombre",
-      "email":"Correo",
-      "message":"Mensaje",
+    "dumbstuff": {},
+    "contact": {
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje",
       "email-desc": "Nunca voy a compartir tu email con alguien mas."
     }
-
   },
   "footer": {
-    "text":"que sucede"
+    "text": "que sucede"
   }
 }
