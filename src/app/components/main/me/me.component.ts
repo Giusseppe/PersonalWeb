@@ -24,6 +24,7 @@ export class MeComponent implements OnInit {
   tech9 = { nombre: 'JAVA', type: 'LANG', url: 'assets/img/techs/java.png', ancho: '40', alto: '40' };
   tech10 = { nombre: '', type: 'DB', url: 'assets/img/techs/mysql.png', ancho: '130', alto: '70' };
   tech11 = { nombre: '', type: 'DB', url: 'assets/img/techs/oracle.png', ancho: '130', alto: '30' };
+  tech12 = { nombre: '', type: 'DB', url: 'assets/img/techs/msqlserver.png', ancho: '160', alto: '50' };
 
   imagePathFacebook: string = 'assets/icon/facebook.png';
   imagePathGmail: string = 'assets/icon/gmail.png';
@@ -47,6 +48,7 @@ export class MeComponent implements OnInit {
     this.langs.push(this.tech9)
     this.dbs.push(this.tech10);
     this.dbs.push(this.tech11);
+    this.dbs.push(this.tech12);
   }
 
   downloadFile() {
