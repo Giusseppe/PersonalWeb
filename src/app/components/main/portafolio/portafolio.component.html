@@ -15,7 +15,7 @@
           {{ item.desc | translate }}
         </p>
         <ng-container *ngIf="!!item.url">
-          <a class="m-0 p-0" href="{{ item.url }}" target="_blank">{{ item.url }}
+          <a class="m-0 p-0" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.url }}
           </a>
         </ng-container>
         <p class="card-text text-justify"></p>

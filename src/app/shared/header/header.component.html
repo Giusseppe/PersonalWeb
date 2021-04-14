@@ -7,19 +7,10 @@
     <ul class="nav navbar-nav my-auto mr-md-auto mt-3">
 
       <li class="nav-item mr-3">
-        <a class="nav-link" href="#me">{{'header.me' | translate}} </a>
+        <a class="nav-link" href="#me" rel="noopener">{{'header.me' | translate}} </a>
       </li>
       <li class="nav-item mr-3">
-        <a class="nav-link" href="#cv">{{'header.cv' | translate}} </a>
-      </li>
-      <li class="nav-item mr-3">
-        <a class="nav-item nav-link" href="#portafolio">{{'header.portafolio' | translate}}</a>
-      </li>
-      <li class="nav-item mr-3 d-none">
-        <a class="nav-item nav-link" href="#ocio">{{'header.dumbstuff' | translate}}</a>
-      </li>
-      <li class="nav-item mr-3">
-        <a class="nav-item nav-link" href="#contacto">{{'header.contact' | translate}}</a>
+        <a class="nav-link" href="#cv" rel="noopener">{{'header.cv' | translate}} </a>
       </li>
     </ul>
   </div>
@@ -32,7 +23,7 @@
       <div class="bg-dark dropdown-menu" aria-labelledby="dropdownMenuButton">
         <ng-container *ngFor="let item of languages">
           <a class="nav-link dropdown-item" *ngIf="currentLanguaje !== item" type="button"
-            (click)="changeLanguage(item)">{{item}}</a>
+            (click)="changeLanguage(item)" rel="noopener">{{item}}</a>
         </ng-container>
       </div>
     </div>

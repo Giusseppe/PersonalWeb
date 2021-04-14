@@ -18,11 +18,11 @@ export class MeComponent implements OnInit {
   tech4 = { nombre: 'BOOTSTRAP', type: 'FE', url: 'assets/img/techs/bootstrap.png', ancho: '40', alto: '40' };
   tech5 = { nombre: 'MATERIAL DESIGN', type: 'FE', url: 'assets/img/techs/mt.png', ancho: '40', alto: '40' };
   tech1 = { nombre: 'ANGULAR 8', type: 'FE', url: 'assets/img/techs/angular.svg', ancho: '40', alto: '40' };
-  tech6 = { nombre: 'SPRING', type: 'BE', url: 'assets/img/techs/spring.png', ancho: '40', alto: '40' };
+  tech6 = { nombre: 'SPRING', type: 'BE', url: 'assets/img/techs/spring.png', ancho: '32', alto: '29' };
   tech7 = { nombre: 'JAVASCRIPT', type: 'LANG', url: 'assets/img/techs/js.png', ancho: '40', alto: '40' };
   tech8 = { nombre: 'TYPESCRIPT', type: 'LANG', url: 'assets/img/techs/typescript.png', ancho: '40', alto: '40' };
   tech9 = { nombre: 'JAVA', type: 'LANG', url: 'assets/img/techs/java.png', ancho: '40', alto: '40' };
-  tech10 = { nombre: '', type: 'DB', url: 'assets/img/techs/mysql.png', ancho: '130', alto: '70' };
+  tech10 = { nombre: '', type: 'DB', url: 'assets/img/techs/mysql.png', ancho: '122', alto: '67' };
   tech11 = { nombre: '', type: 'DB', url: 'assets/img/techs/oracle.png', ancho: '130', alto: '30' };
   tech12 = { nombre: '', type: 'DB', url: 'assets/img/techs/msqlserver.png', ancho: '160', alto: '50' };
 
